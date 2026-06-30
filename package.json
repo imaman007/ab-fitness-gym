@@ -12,26 +12,27 @@
     "seed": "npx tsx prisma/seed.ts"
   },
   "dependencies": {
+    "@prisma/client": "^6.4.0",
+    "bcryptjs": "^3.0.2",
+    "lucide-react": "0.475.0",
     "next": "^15.3.3",
+    "next-auth": "^4.24.11",
+    "prisma": "^6.4.0",
+    "razorpay": "^2.9.6",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "prisma": "^6.4.0",
-    "@prisma/client": "^6.4.0",
-    "next-auth": "^4.24.11",
-    "razorpay": "^2.9.6",
     "recharts": "^2.15.3",
-    "lucide-react": "0.475.0",
-    "bcryptjs": "^3.0.2",
+    "tweetsodium": "^0.0.4",
     "zod": "^3.24.4"
   },
   "devDependencies": {
-    "typescript": "^5",
+    "@types/bcryptjs": "^2.4.6",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
-    "@types/bcryptjs": "^2.4.6",
-    "ts-node": "^10.9.2",
     "eslint": "^9",
-    "eslint-config-next": "^15.3.3"
+    "eslint-config-next": "^15.3.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5"
   }
 }
