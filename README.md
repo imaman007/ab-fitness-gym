@@ -7,10 +7,14 @@
 ![TypeScript](https://img.shields.io/badge/TypeScript-5-blue?logo=typescript)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fimaman007%2Fab-fitness-gym)
+
 ---
 
 ## ✨ Features
 
+- 🎬 **AI Aesthetic Video Backgrounds** — 4 interactive cyberpunk & powerlifting video streams with live site-wide palette transformation!
+- 💎 **Luxury Typography & Gradients** — Syne, Outfit, Plus Jakarta Sans, and Champion Gold / Laser Crimson multi-palettes!
 - 🎨 **Animated Canvas Hero** — floating gym equipment silhouettes, particle web, breathing glow
 - 🔐 **Auth** — Register / Login with NextAuth v4 + bcrypt
 - 💳 **Payments** — Razorpay integration with built-in **sandbox simulator** (no real keys needed)
