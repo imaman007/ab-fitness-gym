@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import { Dumbbell, TrendingUp, Users, MapPin } from 'lucide-react'
+import AmbientVideoBg from '@/components/AmbientVideoBg'
 
 export const metadata: Metadata = {
   title: 'Join AB Fitness',
@@ -23,6 +24,7 @@ export default function AuthLayout({ children }: { children: React.ReactNode }) 
     <div className="auth-layout">
       {/* Left Branding Panel */}
       <div className="auth-left">
+        <AmbientVideoBg showSwitcher={false} initialThemeIndex={0} />
         <div className="auth-left-overlay" />
         <div className="auth-left-content">
           <div className="auth-logo">

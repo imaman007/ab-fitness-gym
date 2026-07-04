@@ -3,6 +3,7 @@ import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
 import Link from 'next/link'
 import { Clock, Flame, Dumbbell, ChevronRight, Star } from 'lucide-react'
+import AmbientVideoBg from '@/components/AmbientVideoBg'
 
 export const metadata = { title: 'Workout Plans — AB Fitness' }
 
@@ -21,8 +22,9 @@ export default async function WorkoutsPage() {
   return (
     <>
       <Navbar />
-      <main style={{ paddingTop: 80 }}>
-        <div className="section">
+      <main style={{ paddingTop: 80, position: 'relative', minHeight: '100vh', overflow: 'hidden' }}>
+        <AmbientVideoBg showSwitcher={false} initialThemeIndex={1} />
+        <div className="section" style={{ position: 'relative', zIndex: 2 }}>
           <div className="container">
             <div className="section-header">
               <div className="section-badge"><Dumbbell size={12} /> Training Programs</div>
